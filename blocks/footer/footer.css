@@ -2,3 +2,10 @@
     width: 68.91%;
     margin-bottom: 60px;
 }
+
+@media all and (max-width: 1279px) {
+    .footer {
+        width: 88.13%;
+        margin-bottom: 36px;
+    }
+}

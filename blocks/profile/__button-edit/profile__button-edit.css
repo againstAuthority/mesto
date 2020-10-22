@@ -1,5 +1,6 @@
 .profile__button-edit {
     grid-area: profile__button-edit;
+    margin-left: 17px;
     align-self: center;
     width: 24px;
     height: 24px;
@@ -8,4 +9,11 @@
     background-image: url('../../../images/profile/edit-button.png');
     background-repeat: no-repeat;
     background-position: center;
+}
+
+
+@media all and (max-width: 1279px) {
+    .profile__button-edit {
+        margin-left: 5px;
+    }
 }

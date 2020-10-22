@@ -1,9 +1,13 @@
 .element {
     width: 282px;
     display: grid;
-    grid-template-columns: 12fr 1fr;
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 1.5fr 0.3fr;
+    grid-template-rows: 1.7fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "element__image element__image"
+      "element__name element__button-like";
     border-radius: 10px;
     border: none;
-    background: #fff;
+    background: #fff;     
 }

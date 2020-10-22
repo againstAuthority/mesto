@@ -2,17 +2,16 @@
     grid-area: profile__about;
     margin: 9px 0 0 30px;
     padding: 0;
-    min-width: 295px;
     line-height: 22px;
     font-size: 18px;
     color: #fff;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 1279px) {
     .profile__about {
-        min-width: 280px;
+        margin: 0;
         font-size: 14px;
         line-height: 17px;
-        justify-self: center;
+        justify-self: right;
     }
 }

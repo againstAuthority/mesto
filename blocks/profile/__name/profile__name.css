@@ -3,7 +3,6 @@
     align-self: end;
     margin: 0 0 0 30px;
     padding: 0;
-    min-width: 295px;
     line-height: 56px;
     font-weight: 500;
     font-size: 42px;
@@ -11,10 +10,10 @@
 }
 
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 1279px) {
     .profile__name {
-        min-width: 201px;
+        margin: 0;
         font-size: 27px;
-        justify-self: center;
+        justify-self: right;
     }
 }
