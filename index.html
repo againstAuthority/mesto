@@ -45,8 +45,8 @@
                     <input type="button" class="element__button-like"></input>  
                 </div>
                 <div class="element">
-                    <img class="element__image" src="./images/elements/karachaevsk.jpg" alt="Карачаев">
-                    <h2 class="element__name">Карачаево-Ч...</h2>
+                    <img class="element__image" src="./images/elements/karachaevsk.jpg" alt="Карачаево-Черкесия">
+                    <h2 class="element__name">Карачаево-Черкесия</h2>
                     <input type="button" class="element__button-like"></input>  
                 </div>
             </section>
@@ -54,6 +54,15 @@
         <footer class="footer">
             <p class="footer__copyright">&copy;2020 Mesto Russia</p>
         </footer>
+        <div class="popup">
+            <img class="popup__close-button" src="images/popup/close-icon.png" alt="Закрыть">
+            <div class="popup__container">
+                <h2 class="popup__edit-profile">Редактировать профиль</h2>
+                <input type="text" class="popup__item-profile-name" id="popup__item-profile-name" name="popup__item-profile-name" placeholder="Имя" required>
+                <input type="text" class="popup__item-profile-about" id="popup__item-profile-about" name="popup__item-profile-about" placeholder="О себе" required>
+                <input type="submit" class="popup__save-button" id="popup__save-button" value="Сохранить">
+            </div>
+        </div>
+        <script src="./script.js"></script>
     </body>
-
 </html>

@@ -3,7 +3,8 @@
     width: 20.76px;
     height: 18.13px;
     align-self: center;
-    justify-self: center;
+    justify-self: right;
+    padding-right: 45px;
     background-color: #fff;
     background-image: url('../../../images/elements/button-like.png');
     background-repeat: no-repeat;
