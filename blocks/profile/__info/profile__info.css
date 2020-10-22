@@ -1,0 +1,12 @@
+.profile__info {
+    display: grid;
+    grid-area: profile__info;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+}
+
+@media all and (max-width: 320px) {
+    .profile__info {
+       /* grid-template-rows: repeat(2, auto);*/
+    }
+}
