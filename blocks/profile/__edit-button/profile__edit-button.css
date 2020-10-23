@@ -1,4 +1,4 @@
-.profile__button-edit {
+.profile__edit-button {
     grid-area: profile__button-edit;
     margin-left: 17px;
     align-self: center;
@@ -13,7 +13,7 @@
 
 
 @media all and (max-width: 1279px) {
-    .profile__button-edit {
+    .profile__edit-button {
         margin-left: 5px;
     }
 }
