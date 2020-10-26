@@ -11,3 +11,8 @@
     background-position: center;
     border: none;
 }
+  
+.element__like-button:focus {
+    outline-color: #000;
+  }
+  

@@ -1,8 +1,8 @@
 let popup = document.querySelector('.popup');
 let popupCloseBtn = popup.querySelector('.popup__close-button');
 let popupSaveBtn = popup.querySelector('.popup__save-button');
-let popupProfileName = popup.querySelector('.popup__item-profile-name');
-let popupProfileInfo = popup.querySelector('.popup__item-profile-about');
+let popupProfileName = popup.querySelector('.popup__profile-name');
+let popupProfileInfo = popup.querySelector('.popup__profile-info');
 
 let profileEditBtn = document.querySelector('.profile__edit-button');
 let profileName = document.querySelector('.profile__name');

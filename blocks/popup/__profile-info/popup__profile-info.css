@@ -1,0 +1,15 @@
+.popup__profile-info {
+    border: 0;
+    height: 27.34px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: transparent;
+    margin-bottom: 48px;
+    font-size: 14px;
+}
+
+@media all and (max-width: 320px) {
+    .popup__profile-info {
+        margin-bottom: 45px;
+    }
+}
