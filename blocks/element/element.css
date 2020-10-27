@@ -1,8 +1,8 @@
 .element {
     width: 282px;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr 0.3fr;
+    grid-template-columns: 1fr 0.2fr;
+    grid-template-rows: 282px auto;
     gap: 0px 0px;
     grid-template-areas:
       "element__image element__image"
@@ -11,3 +11,4 @@
     border: none;
     background: #fff;     
 }
+

@@ -3,7 +3,7 @@
     margin-bottom: 60px;
 }
 
-@media all and (max-width: 1279px) {
+@media all and (max-width: 320px) {
     .footer {
         width: 88.13%;
         margin-bottom: 36px;

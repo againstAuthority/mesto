@@ -9,8 +9,7 @@
     color: #fff;
 }
 
-
-@media all and (max-width: 1279px) {
+@media all and (max-width: 900px) {
     .profile__name {
         margin: 0;
         font-size: 27px;

@@ -3,16 +3,18 @@
     width: 20.76px;
     height: 18.13px;
     align-self: center;
-    justify-self: right;
-    padding-right: 45px;
+    justify-self: center;
+    padding-right: 22.24px;
     background-color: #fff;
-    background-image: url('../../../images/elements/button-like.png');
+    background-image: url('../../../images/elements/button-like.svg');
     background-repeat: no-repeat;
     background-position: center;
     border: none;
+    outline: none;
 }
-  
-.element__like-button:focus {
-    outline-color: #000;
-  }
+
+.element__like-button:hover {
+    opacity: .6;
+    cursor: pointer;
+}  
   
