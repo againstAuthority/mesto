@@ -1,7 +1,7 @@
 .profile {
     width: 68.91%;
     display: grid;
-    grid-template-columns: auto auto auto 1fr;
+    grid-template-columns: auto 320px auto 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
@@ -10,15 +10,15 @@
     margin-bottom: 50px;  
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1023px) {
   .profile {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 230px auto auto;
     grid-template-rows: 2fr 0.5fr 0.5fr 1fr;
     grid-template-areas:
-      "profile__image profile__image"
-      "profile__name profile__button-edit"
-      "profile__about ."
-      "profile__button-add profile__button-add";
+      ". profile__image profile__image ."
+      ". profile__name profile__button-edit ."
+      ". profile__about profile__about ."
+      "profile__button-add profile__button-add profile__button-add profile__button-add";
     margin-bottom: 36px;     
 }  
 }

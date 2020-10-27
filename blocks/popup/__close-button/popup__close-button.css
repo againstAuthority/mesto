@@ -1,10 +1,6 @@
 .popup__close-button {
-    position: absolute;
-    left: 845px;
-    top: 173px;
+    grid-area: popup__close-button;
     height: 40.7px;
-    margin-top: -10px;
-    
 }
 
 .popup__close-button:hover {
@@ -17,13 +13,8 @@
   }
 
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 852px) {
     .popup__close-button {
-        position: absolute;
-        left: 287px;
-        top: 100px;
-        height: 26px;
-        width: 26px;
-        margin-top: -10px;   
+        justify-self: right;
     }
 }

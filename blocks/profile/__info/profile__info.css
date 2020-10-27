@@ -4,14 +4,17 @@
     padding: 0;
     line-height: 22px;
     font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
     color: #fff;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1023px) {
     .profile__info {
+        text-align: center;
         margin: 0;
         font-size: 14px;
         line-height: 17px;
-        justify-self: right;
     }
 }
