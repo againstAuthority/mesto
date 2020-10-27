@@ -1,0 +1,23 @@
+.popup__container-overlay { 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". popup__close-button"
+      "popup__container .";
+    background-color: rgba(0, 0, 0, 0); 
+}
+
+@media all and (max-width: 852px) {
+  .popup__container-overlay { 
+    grid-template-columns: auto;
+    grid-template-areas:
+      "popup__close-button"
+      "popup__container";
+}
+}

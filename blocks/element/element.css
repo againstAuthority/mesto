@@ -1,0 +1,14 @@
+.element {
+    width: 282px;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+    grid-template-rows: 282px auto;
+    gap: 0px 0px;
+    grid-template-areas:
+      "element__image element__image"
+      "element__name element__button-like";
+    border-radius: 10px;
+    border: none;
+    background: #fff;     
+}
+

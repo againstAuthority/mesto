@@ -1,0 +1,20 @@
+.popup__close-button {
+    grid-area: popup__close-button;
+    height: 40.7px;
+}
+
+.popup__close-button:hover {
+    opacity: .6;
+    cursor: pointer;
+  }
+  
+.popup__close-button:focus {
+    outline-color: #000;
+  }
+
+
+@media all and (max-width: 852px) {
+    .popup__close-button {
+        justify-self: right;
+    }
+}

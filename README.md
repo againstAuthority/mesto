@@ -1,17 +1,22 @@
 # Проект 4: Место
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)&nbsp;[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)&nbsp;[![ForTheBadge uses-css](https://forthebadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
+## Проектная работа [Yandex.Практикум](https://praktikum.yandex.ru/web/)
 
-### Обзор
-
+## Обзор
 * Figma
-* Картинки
+* Превью
+* Что сделано?
+* Что нужно сделать?
 
-**Figma**
-
+### Макет в Figma
 * [Ссылка на макет в Figma](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4)
 
-**Картинки**
+### Превью
+* https://againstauthority.github.io/mesto/index.html
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+## Что сделано?
+:white_check_mark:&nbsp;&nbsp;Выполнена верстка в соответствии с брифом для Спринт 4 (см.&nbsp;&nbsp;п.Макет в Figma)<br>
+:white_check_mark:&nbsp;&nbsp;Разработаны скрипты в соответствии с брифом для Спринт 4 (см.&nbsp;&nbsp;п.Превью)<br>
 
-Удачи!
+## Что нужно сделать?
+:black_square_button:&nbsp;&nbsp;Сдать работу для Спринт 4
