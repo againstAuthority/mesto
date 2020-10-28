@@ -8,6 +8,10 @@ let profileEditBtn = document.querySelector('.profile__edit-button');
 let profileName = document.querySelector('.profile__name');
 let profileInfo = document.querySelector('.profile__info');
 
+function getProfileData() {
+    popupProfileName.value = profileName.textContent;
+    popupProfileInfo.value = profileInfo.textContent;
+}
 
 function showEditPopup() {
     popup.classList.add('popup_opened');
@@ -15,19 +19,12 @@ function showEditPopup() {
 }
 
 function closeEditPopup() {
-    let popup = document.querySelector('.popup');
     popup.classList.remove('popup_opened');
-}
-
-function getProfileData() {
-    popupProfileName.value = profileName.textContent;
-    popupProfileInfo.value = profileInfo.textContent;
 }
 
 function setProfileData() {
     profileName.textContent = popupProfileName.value;
     profileInfo.textContent = popupProfileInfo.value;
-
     closeEditPopup();
 }
 
