@@ -5,4 +5,15 @@
     border-bottom: 1px solid rgba(0,0,0,0.2);
     background-color: transparent;
     font-size: 14px;
+    margin-bottom: 29.74px;
+}
+
+.popup__input:not(:nth-child(2n)) {
+    margin-bottom: 48px;
+}
+
+@media all and (max-width: 852px) {
+    .popup__input:not(:nth-child(2n)) {
+        margin-bottom: 45px;
+    }
 }

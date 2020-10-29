@@ -17,39 +17,39 @@
             <img class="profile__image" src="./images/profile/avatar.jpg" alt="Изображение профиля">
             <h1 class="profile__name">Жак-Ив Кусто</h1>
             <p class="profile__info">Исследователь океана</p>
-            <button class="profile__edit-button"></button>
-            <button class="profile__add-button"></button>
+            <button type="button" class="profile__edit-button"></button>
+            <button type="button" class="profile__add-button"></button>
         </section>
         <section class="elements">
             <div class="element">
                 <img class="element__image" src="./images/elements/bezengi.jpg" alt="Безенги">
                 <h2 class="element__name">Безенги</h2>
-                <button class="element__like-button"></button>
+                <button type="button" class="element__like-button"></button>
             </div>
             <div class="element">
                 <img class="element__image" src="./images/elements/north-kavkaz.jpg" alt="Северный Кавказ">
                 <h2 class="element__name">Северный Кавказ</h2>
-                <button class="element__like-button"></button>
+                <button type="button" class="element__like-button"></button>
             </div>
             <div class="element">
                 <img class="element__image" src="./images/elements/kremia.jpg" alt="Крым">
                 <h2 class="element__name">Крым</h2>
-                <button class="element__like-button"></button>
+                <button type="button" class="element__like-button"></button>
             </div>
             <div class="element">
                 <img class="element__image" src="./images/elements/dongusorun.jpg" alt="Донгузорун-Чегет-Карабаши">
                 <h2 class="element__name">Донгузорун-Чегет-Карабаши</h2>
-                <button class="element__like-button"></button>
+                <button type="button" class="element__like-button"></button>
             </div>
             <div class="element">
                 <img class="element__image" src="./images/elements/elbrus.jpg" alt="Эльбрус">
                 <h2 class="element__name">Эльбрус</h2>
-                <button class="element__like-button"></button>
+                <button type="button" class="element__like-button"></button>
             </div>
             <div class="element">
                 <img class="element__image" src="./images/elements/dombay.jpg" alt="Домбай">
                 <h2 class="element__name">Домбай</h2>
-                <button class="element__like-button"></button>
+                <button type="button" class="element__like-button"></button>
             </div>
         </section>
     </main>
@@ -58,11 +58,11 @@
     </footer>
     <div class="popup">
         <div class="popup__container-overlay">
-            <button type="reset" class="popup__close-button"></button>
-            <form class="popup__container" name="popup__profile-edit-container">
+            <button type="button" class="popup__close-button"></button>
+            <form class="popup__container" name="profileEditForm">
                 <h2 class="popup__header">Редактировать профиль</h2>
-                <input type="text" class="popup__input popup__input_profile-name" name="popup__input_profile-name" placeholder="Имя" required>
-                <input type="text" class="popup__input popup__input_profile-info" name="popup__input_profile-info" placeholder="О себе" required>
+                <input type="text" class="popup__input popup__input_profile_name" name="popupInputProfileName" placeholder="Имя" required>
+                <input type="text" class="popup__input popup__input_profile_info" name="popupInputProfileInfo" placeholder="О себе" required>
                 <input type="submit" class="popup__save-button" value="Сохранить">
             </form>
         </div>
