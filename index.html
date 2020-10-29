@@ -10,13 +10,11 @@
 
 <body class="page">
     <header class="header">
-        <!--Логотип должен быть в векторном формате-->
-        <img class="header__logo" src="./images/header/header__logo.png" alt="Логотип">
+        <img class="header__logo" src="./images/header/header__logo.svg" alt="Логотип">
     </header>
     <main class="content">
         <section class="profile">
-            <!--Изображение лучше в формате jpg-->
-            <img class="profile__image" src="./images/profile/avatar.png" alt="Изображение профиля">
+            <img class="profile__image" src="./images/profile/avatar.jpg" alt="Изображение профиля">
             <h1 class="profile__name">Жак-Ив Кусто</h1>
             <p class="profile__info">Исследователь океана</p>
             <button class="profile__edit-button"></button>
@@ -60,13 +58,13 @@
     </footer>
     <div class="popup">
         <div class="popup__container-overlay">
-            <img class="popup__close-button" src="images/popup/close-icon.png" alt="Закрыть">
-            <div class="popup__container">
+            <button type="reset" class="popup__close-button"></button>
+            <form class="popup__container" name="popup__profile-edit-container">
                 <h2 class="popup__header">Редактировать профиль</h2>
-                <input type="text" class="popup__profile-name" name="popup__profile-name" placeholder="Имя" required>
-                <input type="text" class="popup__profile-info" name="popup__profile-info" placeholder="О себе" required>
+                <input type="text" class="popup__input popup__input_profile-name" name="popup__input_profile-name" placeholder="Имя" required>
+                <input type="text" class="popup__input popup__input_profile-info" name="popup__input_profile-info" placeholder="О себе" required>
                 <input type="submit" class="popup__save-button" value="Сохранить">
-            </div>
+            </form>
         </div>
     </div>
     <script src="./scripts/script.js"></script>
