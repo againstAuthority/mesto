@@ -30,7 +30,5 @@
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__header/popup__header.css);
 @import url(../blocks/popup/__input/popup__input.css);
-@import url(../blocks/popup/__input/_profile-name/popup__input_profile-name.css);
-@import url(../blocks/popup/__input/_profile-info/popup__input_profile-info.css);
 @import url(../blocks/popup/__save-button/profile__save-button.css);
 @import url(../blocks/popup/__close-button/popup__close-button.css);
